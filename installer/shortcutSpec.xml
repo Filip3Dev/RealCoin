@@ -1,0 +1,36 @@
+<shortcuts>
+	<skipIfNotSupported/>
+	<defaultCurrentUser/>
+	<programGroup defaultName="RealCoin" location="startMenu"/>
+	<shortcut
+		name="RealCoin Server"
+		target="$INSTALL_PATH\RealCoin.exe"
+		commandLine=""
+		workingDirectory="$INSTALL_PATH"
+        description="Start RealCoin server"
+		iconFile="$INSTALL_PATH\html\www\favicon.ico"
+        iconIndex="0"
+        initialState="normal"
+        programGroup="yes"
+		desktop="yes"
+        applications="no"
+        startMenu="no"
+		startup="no"
+		runAsAdministrator="true">
+	</shortcut>	
+	<shortcut
+		name="RealCoin Wallet"
+		target="http://localhost:2022/index.html"
+		commandLine=""
+		workingDirectory="$INSTALL_PATH"
+        description="Launch RealCoin wallet in browser"
+		iconFile="$INSTALL_PATH\html\www\favicon.ico"
+        iconIndex="0"
+        initialState="normal"
+        programGroup="yes"
+		desktop="yes"
+        applications="no"
+        startMenu="no"
+		startup="no">
+	</shortcut>	
+</shortcuts>
